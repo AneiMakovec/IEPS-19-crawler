@@ -21,3 +21,23 @@ To run the assignment execute file run-extraction.py in the implementation-extra
 - C -> wrapper generation
 
 The output is printed to standard output.
+
+## 3. ASSIGNMENT - INSTRUCTIONS
+
+The assignment requires Python libraries to run:
+- nltk
+- re
+- sys
+- time
+- selectolax.parser (pip install selectolax)
+- sqlite3
+
+To run the assignment execute one of given programs:
+- run-sqlite-search.py -> search with inverted index
+- run-basic-search.py -> basic search with sequential file reading
+
+The query is passed to the program as an argument.
+
+The outout is printed to standard output.
+
+To construct database first delete the curent one and then run program run-indexing.py.
